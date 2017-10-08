@@ -6,7 +6,7 @@ var port = 3000;
 // now lets create an instance of express;
 var app = express();
 
-app.get('/', function(req, res){
+app.get('/', function(req, res) {
   res.sendFile(path.join(__dirname, '../src/index.html'));
 });
 
