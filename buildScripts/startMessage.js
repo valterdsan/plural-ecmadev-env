@@ -1,5 +1,4 @@
-// es5 standard
-// var chalk = require ('chalk');
+// var chalk = require ('chalk');    // es5 standard
 
 // now using es6 standard
 import chalk from 'chalk';
